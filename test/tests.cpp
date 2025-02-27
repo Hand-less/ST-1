@@ -2,8 +2,6 @@
 
 #include <gtest/gtest.h>
 #include "alg.h"
-#include <cstdint>
-
 
 TEST(CheckPrimeTest, HandlesOne) {
     EXPECT_FALSE(checkPrime(1));
